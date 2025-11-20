@@ -1,0 +1,115 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(255, 255, 255);
+}
+#menu{
+    width: 100%;
+    display: flex ; justify-content: center;
+    background-color: rgb(8, 77, 8);
+  
+}
+#lista{
+    width: 80% ;
+    display: flex;
+    justify-content: space-evenly ;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+nav ul {
+    list-style: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+#contenedor_encabezado{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+#titulo{
+    color: black;
+}
+#contenedor_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/melgar-01.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#subtitulo{
+    font-size: xx-large;
+    color: #fffbfbfd;
+}
+#descripcion{
+    justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+#tarjetas_lugares{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+#tarjetas_lugares_2{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+#tarjetas_lugares_3{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+#tarjetas_lugares_4{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px;
+}
+#tarjetas_comida{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+#tarjetas_comida_2{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+#tarjetas_hoteles{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+#tarjetas_hoteles_2{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
